@@ -38,7 +38,8 @@ class GameVC: UIViewController {
     
     @IBAction func stopGif(_ sender: Any) {
     
-        
+            print(" Tries = \(tries) ")
+            print(" Count = \(count) ")
             tries += 1
         
         if currentLevel == 1 {
