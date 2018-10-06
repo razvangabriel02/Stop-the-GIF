@@ -116,6 +116,672 @@ class GameVC: UIViewController {
                 timer.invalidate()
             }
             
+        }  else if currentLevel == 3 {
+            
+            if count == 45 || count == 46 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        } else if currentLevel == 4 {
+            
+            if count == 43 || count == 44 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 5 {
+            
+            if count == 23 || count == 24 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 6 {
+            
+            if count == 48 || count == 49 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        } else if currentLevel == 7 {
+            
+            if count == 24 || count == 25 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 8 {
+            
+            if count == 24 || count == 25 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 9 {
+            
+            if count == 48 || count == 49 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 10 {
+            
+            if count == 29 || count == 30 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 11 {
+            
+            if count == 36 || count == 37 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 12 {
+            
+            if count == 23 || count == 24 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 13 {
+            
+            if count == 48 || count == 49 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 14 {
+            
+            if count == 35 || count == 36 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 15 {
+            
+            if count == 29 || count == 30 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 16 {
+            
+            if count == 40 || count == 41 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 17 {
+            
+            if count == 19 || count == 20 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 18 {
+            
+            if count == 39 || count == 40 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        } else if currentLevel == 19 {
+            
+            if count == 14 || count == 15 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
+        }  else if currentLevel == 20 {
+            
+            if count == 0 || count == 1 {
+                
+                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                
+                if tries <= 5 {
+                    
+                    UserDefaults.standard.set(3, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Perfect !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
+                    
+                } else if tries > 5 && tries <= 10 {
+                    
+                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Excellent !"
+                    UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
+                    UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
+                    
+                } else if tries > 10 {
+                    
+                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    winLabel.text = "Good Job !"
+                    UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
+                    
+                }
+                
+                refreshButton.isHidden = false
+                nextButton.isHidden = false
+                
+                winLabel.alpha = 1
+                
+                timer.invalidate()
+            }
+            
         }
         
     }
@@ -138,9 +804,82 @@ class GameVC: UIViewController {
             
             timer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(GameVC.level1), userInfo: nil, repeats: true)
             
-         } else if currentLevel == 2 {
+        } else if currentLevel == 2 {
             
             timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level2), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 3 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level3), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 4 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level4), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 5 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level5), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 6 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level6), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 7 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level7), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 8 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level8), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 9 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level9), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 10 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level10), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 11 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level11), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 12 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level12), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 13 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level13), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 14 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level14), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 15 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level15), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 16 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level16), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 17 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level17), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 18 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level18), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 19 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level19), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 20 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level20), userInfo: nil, repeats: true)
+            
         }
     }
     
@@ -175,8 +914,82 @@ class GameVC: UIViewController {
         } else if currentLevel == 2 {
             
             timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level2), userInfo: nil, repeats: true)
-        }
-    }
+            
+        } else if currentLevel == 3 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level3), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 4 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level4), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 5 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level5), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 6 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level6), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 7 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level7), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 8 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level8), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 9 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level9), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 10 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level10), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 11 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level11), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 12 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level12), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 13 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level13), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 14 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level14), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 15 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level15), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 16 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level16), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 17 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level17), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 18 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level18), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 19 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level19), userInfo: nil, repeats: true)
+            
+        } else if currentLevel == 20 {
+            
+            timer = Timer.scheduledTimer(timeInterval: 0.035, target: self, selector: #selector(GameVC.level20), userInfo: nil, repeats: true)
+            
+             }
+        
+         }
     
     
     
@@ -228,6 +1041,7 @@ class GameVC: UIViewController {
            }
       }
     
+    
     @objc func level2() {
         
         count += 1
@@ -235,6 +1049,240 @@ class GameVC: UIViewController {
         gifImage.image = UIImage(named: "hammer\(count).png")
         
         if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level3() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "loading\(count).png")
+        
+        if count == 46 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level4() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "pizza\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level5() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "camera\(count).png")
+        
+        if count == 31 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level6() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "golf\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level7() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "money\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level8() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "rocket\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level9() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "cups\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level10() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "basketball\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level11() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "trumpet\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level12() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "football\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level13() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "flower\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level14() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "milk\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level15() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "tree\(count).gif")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level16() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "egg\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level17() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "fish\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level18() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "rubik\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level19() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "scale\(count).png")
+        
+        if count == 49 {
+            
+            count = 0
+        }
+    }
+    
+    
+    @objc func level20() {
+        
+        count += 1
+        
+        gifImage.image = UIImage(named: "apple\(count).png")
+        
+        if count == 48 {
             
             count = 0
         }

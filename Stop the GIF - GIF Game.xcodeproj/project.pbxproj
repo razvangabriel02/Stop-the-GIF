@@ -463,56 +463,6 @@
 		1894F2902168AF8100AE46FF /* money20.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F25E2168AF8100AE46FF /* money20.png */; };
 		1894F2912168AF8100AE46FF /* money5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F25F2168AF8100AE46FF /* money5.png */; };
 		1894F2922168AF8100AE46FF /* money14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2602168AF8100AE46FF /* money14.png */; };
-		1894F2C62168B0A000AE46FF /* planets31.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2942168B09800AE46FF /* planets31.png */; };
-		1894F2C72168B0A000AE46FF /* planets23.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2952168B09900AE46FF /* planets23.png */; };
-		1894F2C82168B0A000AE46FF /* planets2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2962168B09900AE46FF /* planets2.png */; };
-		1894F2C92168B0A000AE46FF /* planets22.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2972168B09900AE46FF /* planets22.png */; };
-		1894F2CA2168B0A000AE46FF /* planets5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2982168B09900AE46FF /* planets5.png */; };
-		1894F2CB2168B0A000AE46FF /* planets17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2992168B09900AE46FF /* planets17.png */; };
-		1894F2CC2168B0A000AE46FF /* planets37.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F29A2168B09A00AE46FF /* planets37.png */; };
-		1894F2CD2168B0A000AE46FF /* planets10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F29B2168B09A00AE46FF /* planets10.png */; };
-		1894F2CE2168B0A000AE46FF /* planets14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F29C2168B09A00AE46FF /* planets14.png */; };
-		1894F2CF2168B0A000AE46FF /* planets28.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F29D2168B09A00AE46FF /* planets28.png */; };
-		1894F2D02168B0A000AE46FF /* planets46.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F29E2168B09A00AE46FF /* planets46.png */; };
-		1894F2D12168B0A000AE46FF /* planets44.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F29F2168B09A00AE46FF /* planets44.png */; };
-		1894F2D22168B0A000AE46FF /* planets40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A02168B09B00AE46FF /* planets40.png */; };
-		1894F2D32168B0A000AE46FF /* planets24.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A12168B09B00AE46FF /* planets24.png */; };
-		1894F2D42168B0A000AE46FF /* planets35.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A22168B09B00AE46FF /* planets35.png */; };
-		1894F2D52168B0A000AE46FF /* planets39.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A32168B09B00AE46FF /* planets39.png */; };
-		1894F2D62168B0A000AE46FF /* planets25.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A42168B09B00AE46FF /* planets25.png */; };
-		1894F2D72168B0A000AE46FF /* planets43.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A52168B09B00AE46FF /* planets43.png */; };
-		1894F2D82168B0A000AE46FF /* planets13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A62168B09B00AE46FF /* planets13.png */; };
-		1894F2D92168B0A000AE46FF /* planets8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A72168B09C00AE46FF /* planets8.png */; };
-		1894F2DA2168B0A000AE46FF /* planets49.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A82168B09C00AE46FF /* planets49.png */; };
-		1894F2DB2168B0A000AE46FF /* planets4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2A92168B09C00AE46FF /* planets4.png */; };
-		1894F2DC2168B0A000AE46FF /* planets9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2AA2168B09C00AE46FF /* planets9.png */; };
-		1894F2DD2168B0A000AE46FF /* planets48.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2AB2168B09C00AE46FF /* planets48.png */; };
-		1894F2DE2168B0A000AE46FF /* planets18.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2AC2168B09D00AE46FF /* planets18.png */; };
-		1894F2DF2168B0A000AE46FF /* planets33.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2AD2168B09D00AE46FF /* planets33.png */; };
-		1894F2E02168B0A000AE46FF /* planets34.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2AE2168B09D00AE46FF /* planets34.png */; };
-		1894F2E12168B0A000AE46FF /* planets21.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2AF2168B09D00AE46FF /* planets21.png */; };
-		1894F2E22168B0A000AE46FF /* planets19.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B02168B09D00AE46FF /* planets19.png */; };
-		1894F2E32168B0A000AE46FF /* planets41.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B12168B09D00AE46FF /* planets41.png */; };
-		1894F2E42168B0A000AE46FF /* planets3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B22168B09D00AE46FF /* planets3.png */; };
-		1894F2E52168B0A000AE46FF /* planets7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B32168B09D00AE46FF /* planets7.png */; };
-		1894F2E62168B0A000AE46FF /* planets11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B42168B09E00AE46FF /* planets11.png */; };
-		1894F2E72168B0A000AE46FF /* planets36.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B52168B09E00AE46FF /* planets36.png */; };
-		1894F2E82168B0A000AE46FF /* planets15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B62168B09E00AE46FF /* planets15.png */; };
-		1894F2E92168B0A000AE46FF /* planets20.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B72168B09E00AE46FF /* planets20.png */; };
-		1894F2EA2168B0A000AE46FF /* planets0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B82168B09E00AE46FF /* planets0.png */; };
-		1894F2EB2168B0A000AE46FF /* planets32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2B92168B09E00AE46FF /* planets32.png */; };
-		1894F2EC2168B0A000AE46FF /* planets1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2BA2168B09E00AE46FF /* planets1.png */; };
-		1894F2ED2168B0A000AE46FF /* planets12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2BB2168B09F00AE46FF /* planets12.png */; };
-		1894F2EE2168B0A000AE46FF /* planets38.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2BC2168B09F00AE46FF /* planets38.png */; };
-		1894F2EF2168B0A000AE46FF /* planets29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2BD2168B09F00AE46FF /* planets29.png */; };
-		1894F2F02168B0A000AE46FF /* planets16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2BE2168B09F00AE46FF /* planets16.png */; };
-		1894F2F12168B0A000AE46FF /* planets47.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2BF2168B09F00AE46FF /* planets47.png */; };
-		1894F2F22168B0A000AE46FF /* planets27.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2C02168B09F00AE46FF /* planets27.png */; };
-		1894F2F32168B0A000AE46FF /* planets42.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2C12168B0A000AE46FF /* planets42.png */; };
-		1894F2F42168B0A000AE46FF /* planets30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2C22168B0A000AE46FF /* planets30.png */; };
-		1894F2F52168B0A000AE46FF /* planets6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2C32168B0A000AE46FF /* planets6.png */; };
-		1894F2F62168B0A000AE46FF /* planets45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2C42168B0A000AE46FF /* planets45.png */; };
-		1894F2F72168B0A000AE46FF /* planets26.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2C52168B0A000AE46FF /* planets26.png */; };
 		1894F32B2168B0C600AE46FF /* rubik16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2F92168B0BD00AE46FF /* rubik16.png */; };
 		1894F32C2168B0C600AE46FF /* rubik17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2FA2168B0BD00AE46FF /* rubik17.png */; };
 		1894F32D2168B0C600AE46FF /* rubik9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F2FB2168B0BE00AE46FF /* rubik9.png */; };
@@ -813,6 +763,7 @@
 		1894F5532168B1EE00AE46FF /* pizza45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F5212168B1ED00AE46FF /* pizza45.png */; };
 		1894F5542168B1EE00AE46FF /* pizza38.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F5222168B1ED00AE46FF /* pizza38.png */; };
 		1894F5552168B1EE00AE46FF /* pizza33.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F5232168B1ED00AE46FF /* pizza33.png */; };
+		1894F5582168DAC600AE46FF /* loading46.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894F5572168DAC600AE46FF /* loading46.png */; };
 		18B141812168A40700B11B93 /* apple13.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B141502168A3FF00B11B93 /* apple13.png */; };
 		18B141822168A40700B11B93 /* apple0.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B141512168A3FF00B11B93 /* apple0.png */; };
 		18B141832168A40700B11B93 /* apple20.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B141522168A3FF00B11B93 /* apple20.png */; };
@@ -1699,56 +1650,6 @@
 		1894F25E2168AF8100AE46FF /* money20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money20.png; sourceTree = "<group>"; };
 		1894F25F2168AF8100AE46FF /* money5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money5.png; sourceTree = "<group>"; };
 		1894F2602168AF8100AE46FF /* money14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money14.png; sourceTree = "<group>"; };
-		1894F2942168B09800AE46FF /* planets31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets31.png; sourceTree = "<group>"; };
-		1894F2952168B09900AE46FF /* planets23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets23.png; sourceTree = "<group>"; };
-		1894F2962168B09900AE46FF /* planets2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets2.png; sourceTree = "<group>"; };
-		1894F2972168B09900AE46FF /* planets22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets22.png; sourceTree = "<group>"; };
-		1894F2982168B09900AE46FF /* planets5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets5.png; sourceTree = "<group>"; };
-		1894F2992168B09900AE46FF /* planets17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets17.png; sourceTree = "<group>"; };
-		1894F29A2168B09A00AE46FF /* planets37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets37.png; sourceTree = "<group>"; };
-		1894F29B2168B09A00AE46FF /* planets10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets10.png; sourceTree = "<group>"; };
-		1894F29C2168B09A00AE46FF /* planets14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets14.png; sourceTree = "<group>"; };
-		1894F29D2168B09A00AE46FF /* planets28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets28.png; sourceTree = "<group>"; };
-		1894F29E2168B09A00AE46FF /* planets46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets46.png; sourceTree = "<group>"; };
-		1894F29F2168B09A00AE46FF /* planets44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets44.png; sourceTree = "<group>"; };
-		1894F2A02168B09B00AE46FF /* planets40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets40.png; sourceTree = "<group>"; };
-		1894F2A12168B09B00AE46FF /* planets24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets24.png; sourceTree = "<group>"; };
-		1894F2A22168B09B00AE46FF /* planets35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets35.png; sourceTree = "<group>"; };
-		1894F2A32168B09B00AE46FF /* planets39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets39.png; sourceTree = "<group>"; };
-		1894F2A42168B09B00AE46FF /* planets25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets25.png; sourceTree = "<group>"; };
-		1894F2A52168B09B00AE46FF /* planets43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets43.png; sourceTree = "<group>"; };
-		1894F2A62168B09B00AE46FF /* planets13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets13.png; sourceTree = "<group>"; };
-		1894F2A72168B09C00AE46FF /* planets8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets8.png; sourceTree = "<group>"; };
-		1894F2A82168B09C00AE46FF /* planets49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets49.png; sourceTree = "<group>"; };
-		1894F2A92168B09C00AE46FF /* planets4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets4.png; sourceTree = "<group>"; };
-		1894F2AA2168B09C00AE46FF /* planets9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets9.png; sourceTree = "<group>"; };
-		1894F2AB2168B09C00AE46FF /* planets48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets48.png; sourceTree = "<group>"; };
-		1894F2AC2168B09D00AE46FF /* planets18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets18.png; sourceTree = "<group>"; };
-		1894F2AD2168B09D00AE46FF /* planets33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets33.png; sourceTree = "<group>"; };
-		1894F2AE2168B09D00AE46FF /* planets34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets34.png; sourceTree = "<group>"; };
-		1894F2AF2168B09D00AE46FF /* planets21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets21.png; sourceTree = "<group>"; };
-		1894F2B02168B09D00AE46FF /* planets19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets19.png; sourceTree = "<group>"; };
-		1894F2B12168B09D00AE46FF /* planets41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets41.png; sourceTree = "<group>"; };
-		1894F2B22168B09D00AE46FF /* planets3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets3.png; sourceTree = "<group>"; };
-		1894F2B32168B09D00AE46FF /* planets7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets7.png; sourceTree = "<group>"; };
-		1894F2B42168B09E00AE46FF /* planets11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets11.png; sourceTree = "<group>"; };
-		1894F2B52168B09E00AE46FF /* planets36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets36.png; sourceTree = "<group>"; };
-		1894F2B62168B09E00AE46FF /* planets15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets15.png; sourceTree = "<group>"; };
-		1894F2B72168B09E00AE46FF /* planets20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets20.png; sourceTree = "<group>"; };
-		1894F2B82168B09E00AE46FF /* planets0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets0.png; sourceTree = "<group>"; };
-		1894F2B92168B09E00AE46FF /* planets32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets32.png; sourceTree = "<group>"; };
-		1894F2BA2168B09E00AE46FF /* planets1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets1.png; sourceTree = "<group>"; };
-		1894F2BB2168B09F00AE46FF /* planets12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets12.png; sourceTree = "<group>"; };
-		1894F2BC2168B09F00AE46FF /* planets38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets38.png; sourceTree = "<group>"; };
-		1894F2BD2168B09F00AE46FF /* planets29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets29.png; sourceTree = "<group>"; };
-		1894F2BE2168B09F00AE46FF /* planets16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets16.png; sourceTree = "<group>"; };
-		1894F2BF2168B09F00AE46FF /* planets47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets47.png; sourceTree = "<group>"; };
-		1894F2C02168B09F00AE46FF /* planets27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets27.png; sourceTree = "<group>"; };
-		1894F2C12168B0A000AE46FF /* planets42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets42.png; sourceTree = "<group>"; };
-		1894F2C22168B0A000AE46FF /* planets30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets30.png; sourceTree = "<group>"; };
-		1894F2C32168B0A000AE46FF /* planets6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets6.png; sourceTree = "<group>"; };
-		1894F2C42168B0A000AE46FF /* planets45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets45.png; sourceTree = "<group>"; };
-		1894F2C52168B0A000AE46FF /* planets26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planets26.png; sourceTree = "<group>"; };
 		1894F2F92168B0BD00AE46FF /* rubik16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubik16.png; sourceTree = "<group>"; };
 		1894F2FA2168B0BD00AE46FF /* rubik17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubik17.png; sourceTree = "<group>"; };
 		1894F2FB2168B0BE00AE46FF /* rubik9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubik9.png; sourceTree = "<group>"; };
@@ -2049,6 +1950,7 @@
 		1894F5212168B1ED00AE46FF /* pizza45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza45.png; sourceTree = "<group>"; };
 		1894F5222168B1ED00AE46FF /* pizza38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza38.png; sourceTree = "<group>"; };
 		1894F5232168B1ED00AE46FF /* pizza33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza33.png; sourceTree = "<group>"; };
+		1894F5572168DAC600AE46FF /* loading46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading46.png; sourceTree = "<group>"; };
 		18B141502168A3FF00B11B93 /* apple13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple13.png; sourceTree = "<group>"; };
 		18B141512168A3FF00B11B93 /* apple0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple0.png; sourceTree = "<group>"; };
 		18B141522168A3FF00B11B93 /* apple20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple20.png; sourceTree = "<group>"; };
@@ -2947,6 +2849,7 @@
 				1894F1902168AF1B00AE46FF /* loading43.png */,
 				1894F1912168AF1B00AE46FF /* loading44.png */,
 				1894F17A2168AF1700AE46FF /* loading45.png */,
+				1894F5572168DAC600AE46FF /* loading46.png */,
 			);
 			path = "Loading ";
 			sourceTree = "<group>";
@@ -3063,63 +2966,6 @@
 				1894F24A2168AF7D00AE46FF /* money49.png */,
 			);
 			path = Money;
-			sourceTree = "<group>";
-		};
-		1894F2932168B08E00AE46FF /* Planets */ = {
-			isa = PBXGroup;
-			children = (
-				1894F2B82168B09E00AE46FF /* planets0.png */,
-				1894F2BA2168B09E00AE46FF /* planets1.png */,
-				1894F2962168B09900AE46FF /* planets2.png */,
-				1894F2B22168B09D00AE46FF /* planets3.png */,
-				1894F2A92168B09C00AE46FF /* planets4.png */,
-				1894F2982168B09900AE46FF /* planets5.png */,
-				1894F2C32168B0A000AE46FF /* planets6.png */,
-				1894F2B32168B09D00AE46FF /* planets7.png */,
-				1894F2A72168B09C00AE46FF /* planets8.png */,
-				1894F2AA2168B09C00AE46FF /* planets9.png */,
-				1894F29B2168B09A00AE46FF /* planets10.png */,
-				1894F2B42168B09E00AE46FF /* planets11.png */,
-				1894F2BB2168B09F00AE46FF /* planets12.png */,
-				1894F2A62168B09B00AE46FF /* planets13.png */,
-				1894F29C2168B09A00AE46FF /* planets14.png */,
-				1894F2B62168B09E00AE46FF /* planets15.png */,
-				1894F2BE2168B09F00AE46FF /* planets16.png */,
-				1894F2992168B09900AE46FF /* planets17.png */,
-				1894F2AC2168B09D00AE46FF /* planets18.png */,
-				1894F2B02168B09D00AE46FF /* planets19.png */,
-				1894F2B72168B09E00AE46FF /* planets20.png */,
-				1894F2AF2168B09D00AE46FF /* planets21.png */,
-				1894F2972168B09900AE46FF /* planets22.png */,
-				1894F2952168B09900AE46FF /* planets23.png */,
-				1894F2A12168B09B00AE46FF /* planets24.png */,
-				1894F2A42168B09B00AE46FF /* planets25.png */,
-				1894F2C52168B0A000AE46FF /* planets26.png */,
-				1894F2C02168B09F00AE46FF /* planets27.png */,
-				1894F29D2168B09A00AE46FF /* planets28.png */,
-				1894F2BD2168B09F00AE46FF /* planets29.png */,
-				1894F2C22168B0A000AE46FF /* planets30.png */,
-				1894F2942168B09800AE46FF /* planets31.png */,
-				1894F2B92168B09E00AE46FF /* planets32.png */,
-				1894F2AD2168B09D00AE46FF /* planets33.png */,
-				1894F2AE2168B09D00AE46FF /* planets34.png */,
-				1894F2A22168B09B00AE46FF /* planets35.png */,
-				1894F2B52168B09E00AE46FF /* planets36.png */,
-				1894F29A2168B09A00AE46FF /* planets37.png */,
-				1894F2BC2168B09F00AE46FF /* planets38.png */,
-				1894F2A32168B09B00AE46FF /* planets39.png */,
-				1894F2A02168B09B00AE46FF /* planets40.png */,
-				1894F2B12168B09D00AE46FF /* planets41.png */,
-				1894F2C12168B0A000AE46FF /* planets42.png */,
-				1894F2A52168B09B00AE46FF /* planets43.png */,
-				1894F29F2168B09A00AE46FF /* planets44.png */,
-				1894F2C42168B0A000AE46FF /* planets45.png */,
-				1894F29E2168B09A00AE46FF /* planets46.png */,
-				1894F2BF2168B09F00AE46FF /* planets47.png */,
-				1894F2AB2168B09C00AE46FF /* planets48.png */,
-				1894F2A82168B09C00AE46FF /* planets49.png */,
-			);
-			path = Planets;
 			sourceTree = "<group>";
 		};
 		1894F2F82168B0A200AE46FF /* Rubik */ = {
@@ -3467,15 +3313,14 @@
 		1894F5562168B1F400AE46FF /* Gifs */ = {
 			isa = PBXGroup;
 			children = (
-				18B1414A2168A31D00B11B93 /* Apple Gif */,
-				18B1414B2168A36000B11B93 /* Windy Gif */,
+				18B1414A2168A31D00B11B93 /* Apple  */,
+				18B1414B2168A36000B11B93 /* Windy  */,
 				1894F4F12168B1D100AE46FF /* Pizza */,
 				1894F48C2168B1B300AE46FF /* Fly */,
 				1894F3EE2168B14700AE46FF /* Trumpet */,
 				1894F3C22168B12B00AE46FF /* Tree */,
 				1894F35D2168B0CF00AE46FF /* Scale */,
 				1894F2F82168B0A200AE46FF /* Rubik */,
-				1894F2932168B08E00AE46FF /* Planets */,
 				1894F1F72168AF5300AE46FF /* Money */,
 				1894F1C92168AF3000AE46FF /* Milk */,
 				1894F16C2168AF0400AE46FF /* Loading  */,
@@ -3497,7 +3342,7 @@
 			path = Gifs;
 			sourceTree = "<group>";
 		};
-		18B1414A2168A31D00B11B93 /* Apple Gif */ = {
+		18B1414A2168A31D00B11B93 /* Apple  */ = {
 			isa = PBXGroup;
 			children = (
 				18B141512168A3FF00B11B93 /* apple0.png */,
@@ -3550,10 +3395,10 @@
 				18B141712168A40500B11B93 /* apple47.png */,
 				18B1416D2168A40400B11B93 /* apple48.png */,
 			);
-			path = "Apple Gif";
+			path = "Apple ";
 			sourceTree = "<group>";
 		};
-		18B1414B2168A36000B11B93 /* Windy Gif */ = {
+		18B1414B2168A36000B11B93 /* Windy  */ = {
 			isa = PBXGroup;
 			children = (
 				18B141C52168A42100B11B93 /* windy0.png */,
@@ -3601,7 +3446,7 @@
 				18B141B92168A41F00B11B93 /* windy42.png */,
 				18B141D02168A42300B11B93 /* windy43.png */,
 			);
-			path = "Windy Gif";
+			path = "Windy ";
 			sourceTree = "<group>";
 		};
 		18B1414C2168A36700B11B93 /* Golf  */ = {
@@ -4093,11 +3938,9 @@
 				18B143D02168A4CC00B11B93 /* banana17.png in Resources */,
 				18B143732168A4A300B11B93 /* golf19.png in Resources */,
 				1894F1592168AE8D00AE46FF /* football9.png in Resources */,
-				1894F2E82168B0A000AE46FF /* planets15.png in Resources */,
 				1814EBFE216016D300842F56 /* car12.gif in Resources */,
 				18B143FE2168A4CC00B11B93 /* banana2.png in Resources */,
 				1814EB92215F40D800842F56 /* LaunchScreen.storyboard in Resources */,
-				1894F2E92168B0A000AE46FF /* planets20.png in Resources */,
 				18B143792168A4A300B11B93 /* golf1.png in Resources */,
 				1894F4712168B16600AE46FF /* trumpet37.png in Resources */,
 				1894F47E2168B16600AE46FF /* trumpet4.png in Resources */,
@@ -4176,7 +4019,6 @@
 				1894F4832168B16600AE46FF /* trumpet31.png in Resources */,
 				18B1443B2168A4F100B11B93 /* basketball47.png in Resources */,
 				1894F0752168AE2F00AE46FF /* fish13.png in Resources */,
-				1894F2F32168B0A000AE46FF /* planets42.png in Resources */,
 				1894F0E22168AE6A00AE46FF /* flower39.png in Resources */,
 				18B1423E2168A43E00B11B93 /* rocket21.png in Resources */,
 				18B143202168A47100B11B93 /* lights32.png in Resources */,
@@ -4186,10 +4028,8 @@
 				1894F4E32168B1CE00AE46FF /* fly27.png in Resources */,
 				18B143352168A47100B11B93 /* lights13.png in Resources */,
 				1894F1B12168AF1D00AE46FF /* loading12.png in Resources */,
-				1894F2DE2168B0A000AE46FF /* planets18.png in Resources */,
 				1894F2022168AF5400AE46FF /* milk20.gif in Resources */,
 				18B143292168A47100B11B93 /* lights17.png in Resources */,
-				1894F2EF2168B0A000AE46FF /* planets29.png in Resources */,
 				18B142602168A43E00B11B93 /* rocket40.png in Resources */,
 				1894F4E02168B1CE00AE46FF /* fly35.png in Resources */,
 				1894F13F2168AE8D00AE46FF /* football24.png in Resources */,
@@ -4219,7 +4059,6 @@
 				1894F4DD2168B1CD00AE46FF /* fly40.png in Resources */,
 				1814EBD5216016D300842F56 /* car44.gif in Resources */,
 				1894F0F72168AE6B00AE46FF /* flower35.png in Resources */,
-				1894F2ED2168B0A000AE46FF /* planets12.png in Resources */,
 				1894F3562168B0C600AE46FF /* rubik29.png in Resources */,
 				1894F4C82168B1CD00AE46FF /* fly12.png in Resources */,
 				1814EBDD216016D300842F56 /* car1.gif in Resources */,
@@ -4233,7 +4072,6 @@
 				1894F2252168AF5400AE46FF /* milk6.gif in Resources */,
 				18B141852168A40700B11B93 /* apple33.png in Resources */,
 				1894F3472168B0C600AE46FF /* rubik46.png in Resources */,
-				1894F2E02168B0A000AE46FF /* planets34.png in Resources */,
 				1894F1622168AE8D00AE46FF /* football44.png in Resources */,
 				18B143182168A47100B11B93 /* lights41.png in Resources */,
 				1894F0902168AE2F00AE46FF /* fish40.png in Resources */,
@@ -4242,7 +4080,6 @@
 				1894F53F2168B1EE00AE46FF /* pizza3.png in Resources */,
 				18B141EB2168A42500B11B93 /* windy34.png in Resources */,
 				1894F0D92168AE6A00AE46FF /* flower16.png in Resources */,
-				1894F2CA2168B0A000AE46FF /* planets5.png in Resources */,
 				18B141A22168A40700B11B93 /* apple47.png in Resources */,
 				18B1448C2168A52400B11B93 /* camera30.png in Resources */,
 				1894F02D2168A5C400AE46FF /* egg4.png in Resources */,
@@ -4264,7 +4101,6 @@
 				18B141F42168A42500B11B93 /* windy23.png in Resources */,
 				18B141FF2168A42500B11B93 /* windy22.png in Resources */,
 				1894F1B02168AF1D00AE46FF /* loading20.png in Resources */,
-				1894F2D32168B0A000AE46FF /* planets24.png in Resources */,
 				1894F01D2168A5C400AE46FF /* egg23.png in Resources */,
 				1894F1A22168AF1D00AE46FF /* loading25.png in Resources */,
 				18B142692168A43E00B11B93 /* rocket20.png in Resources */,
@@ -4323,7 +4159,6 @@
 				1814EC4C21674B7100842F56 /* hammer9.png in Resources */,
 				18B144502168A4F100B11B93 /* basketball41.png in Resources */,
 				1894F2102168AF5400AE46FF /* milk8.gif in Resources */,
-				1894F2D92168B0A000AE46FF /* planets8.png in Resources */,
 				18B1445D2168A4F100B11B93 /* basketball3.png in Resources */,
 				18B1444B2168A4F100B11B93 /* basketball36.png in Resources */,
 				1894F1432168AE8D00AE46FF /* football48.png in Resources */,
@@ -4336,7 +4171,6 @@
 				18B142B92168A45500B11B93 /* planets33.png in Resources */,
 				18B142AF2168A45500B11B93 /* planets39.png in Resources */,
 				18B143252168A47100B11B93 /* lights4.png in Resources */,
-				1894F2D82168B0A000AE46FF /* planets13.png in Resources */,
 				1894F1AC2168AF1D00AE46FF /* loading23.png in Resources */,
 				1814EC00216016D300842F56 /* car34.gif in Resources */,
 				1894F2082168AF5400AE46FF /* milk1.gif in Resources */,
@@ -4362,8 +4196,6 @@
 				1814EC5321674B7100842F56 /* hammer23.png in Resources */,
 				1894F00F2168A5C400AE46FF /* egg10.png in Resources */,
 				18B143E42168A4CC00B11B93 /* banana20.png in Resources */,
-				1894F2DC2168B0A000AE46FF /* planets9.png in Resources */,
-				1894F2F12168B0A000AE46FF /* planets47.png in Resources */,
 				1894F4082168B14800AE46FF /* tree40.gif in Resources */,
 				18B141F22168A42500B11B93 /* windy18.png in Resources */,
 				1894F4C12168B1CD00AE46FF /* fly29.png in Resources */,
@@ -4382,7 +4214,6 @@
 				18B143702168A4A300B11B93 /* golf24.png in Resources */,
 				18B144612168A4F100B11B93 /* basketball13.png in Resources */,
 				18B143062168A47100B11B93 /* lights34.png in Resources */,
-				1894F2E12168B0A000AE46FF /* planets21.png in Resources */,
 				1894F4DE2168B1CD00AE46FF /* fly4.png in Resources */,
 				1894F28D2168AF8100AE46FF /* money42.png in Resources */,
 				1894F3522168B0C600AE46FF /* rubik39.png in Resources */,
@@ -4391,7 +4222,6 @@
 				1814EBD6216016D300842F56 /* car25.gif in Resources */,
 				1894F47C2168B16600AE46FF /* trumpet18.png in Resources */,
 				18B143232168A47100B11B93 /* lights0.png in Resources */,
-				1894F2EB2168B0A000AE46FF /* planets32.png in Resources */,
 				1894F07D2168AE2F00AE46FF /* fish17.png in Resources */,
 				18B143E02168A4CC00B11B93 /* banana37.png in Resources */,
 				18B142C32168A45500B11B93 /* planets20.png in Resources */,
@@ -4416,7 +4246,6 @@
 				1894F3992168B0E600AE46FF /* scale39.png in Resources */,
 				1814EC5721674B7100842F56 /* hammer38.png in Resources */,
 				1894F5432168B1EE00AE46FF /* pizza44.png in Resources */,
-				1894F2D62168B0A000AE46FF /* planets25.png in Resources */,
 				1894F0332168A5C400AE46FF /* egg14.png in Resources */,
 				1894F1672168AE8D00AE46FF /* football8.png in Resources */,
 				18B143742168A4A300B11B93 /* golf2.png in Resources */,
@@ -4428,7 +4257,6 @@
 				1894F2112168AF5400AE46FF /* milk22.gif in Resources */,
 				1894F34E2168B0C600AE46FF /* rubik42.png in Resources */,
 				1814EBE9216016D300842F56 /* car33.gif in Resources */,
-				1894F2C72168B0A000AE46FF /* planets23.png in Resources */,
 				18B142512168A43E00B11B93 /* rocket6.png in Resources */,
 				1894F3382168B0C600AE46FF /* rubik38.png in Resources */,
 				1894F20D2168AF5400AE46FF /* milk9.gif in Resources */,
@@ -4476,7 +4304,6 @@
 				18B143D32168A4CC00B11B93 /* banana18.png in Resources */,
 				1814EC3E21674B7100842F56 /* hammer33.png in Resources */,
 				18B142452168A43E00B11B93 /* rocket17.png in Resources */,
-				1894F2D52168B0A000AE46FF /* planets39.png in Resources */,
 				1814EBE5216016D300842F56 /* car35.gif in Resources */,
 				1894F21E2168AF5400AE46FF /* milk2.gif in Resources */,
 				1894F5352168B1EE00AE46FF /* pizza5.png in Resources */,
@@ -4495,7 +4322,6 @@
 				18B143E52168A4CC00B11B93 /* banana16.png in Resources */,
 				1894F1B82168AF1D00AE46FF /* loading16.png in Resources */,
 				1894F20F2168AF5400AE46FF /* milk15.gif in Resources */,
-				1894F2E42168B0A000AE46FF /* planets3.png in Resources */,
 				18B141A32168A40700B11B93 /* apple4.png in Resources */,
 				1894F01F2168A5C400AE46FF /* egg33.png in Resources */,
 				1894F0DD2168AE6A00AE46FF /* flower27.png in Resources */,
@@ -4513,12 +4339,10 @@
 				1894F3F92168B14800AE46FF /* tree20.gif in Resources */,
 				18B141832168A40700B11B93 /* apple20.png in Resources */,
 				1814EC4F21674B7100842F56 /* hammer32.png in Resources */,
-				1894F2D42168B0A000AE46FF /* planets35.png in Resources */,
 				18B1445E2168A4F100B11B93 /* basketball32.png in Resources */,
 				1894F14B2168AE8D00AE46FF /* football20.png in Resources */,
 				18B141F72168A42500B11B93 /* windy2.png in Resources */,
 				1894F32D2168B0C600AE46FF /* rubik9.png in Resources */,
-				1894F2EA2168B0A000AE46FF /* planets0.png in Resources */,
 				1894F3B82168B0E600AE46FF /* scale36.png in Resources */,
 				1894F4EC2168B1CE00AE46FF /* fly38.png in Resources */,
 				1894F1572168AE8D00AE46FF /* football21.png in Resources */,
@@ -4560,7 +4384,6 @@
 				1894F14D2168AE8D00AE46FF /* football25.png in Resources */,
 				1894F08A2168AE2F00AE46FF /* fish34.png in Resources */,
 				1894F3B62168B0E600AE46FF /* scale30.png in Resources */,
-				1894F2DB2168B0A000AE46FF /* planets4.png in Resources */,
 				1814EC02216016D300842F56 /* car27.gif in Resources */,
 				1894F0F02168AE6B00AE46FF /* flower12.png in Resources */,
 				1894F4022168B14800AE46FF /* tree42.gif in Resources */,
@@ -4570,7 +4393,6 @@
 				1894F4252168B14900AE46FF /* tree43.gif in Resources */,
 				18B142A62168A45500B11B93 /* planets37.png in Resources */,
 				18B1432F2168A47100B11B93 /* lights31.png in Resources */,
-				1894F2DA2168B0A000AE46FF /* planets49.png in Resources */,
 				1814EC5421674B7100842F56 /* hammer30.png in Resources */,
 				1814EBE0216016D300842F56 /* car45.gif in Resources */,
 				1894F0802168AE2F00AE46FF /* fish41.png in Resources */,
@@ -4578,7 +4400,6 @@
 				1894F0702168AE2F00AE46FF /* fish11.png in Resources */,
 				1894F3B02168B0E600AE46FF /* scale47.png in Resources */,
 				1894F02A2168A5C400AE46FF /* egg47.png in Resources */,
-				1894F2F42168B0A000AE46FF /* planets30.png in Resources */,
 				18B1436A2168A4A300B11B93 /* golf23.png in Resources */,
 				1894F0E72168AE6B00AE46FF /* flower24.png in Resources */,
 				1894F0262168A5C400AE46FF /* egg3.png in Resources */,
@@ -4588,7 +4409,6 @@
 				18B141DF2168A42500B11B93 /* windy15.png in Resources */,
 				18B141AC2168A40700B11B93 /* apple26.png in Resources */,
 				18B144352168A4F100B11B93 /* basketball44.png in Resources */,
-				1894F2C62168B0A000AE46FF /* planets31.png in Resources */,
 				1894F1C42168AF1D00AE46FF /* loading27.png in Resources */,
 				1894F4872168B16600AE46FF /* trumpet10.png in Resources */,
 				1894F46C2168B16600AE46FF /* trumpet15.png in Resources */,
@@ -4598,7 +4418,6 @@
 				18B142042168A42500B11B93 /* windy1.png in Resources */,
 				1894F01C2168A5C400AE46FF /* egg31.png in Resources */,
 				1894F27E2168AF8100AE46FF /* money36.png in Resources */,
-				1894F2D72168B0A000AE46FF /* planets43.png in Resources */,
 				18B143D42168A4CC00B11B93 /* banana46.png in Resources */,
 				18B1436F2168A4A300B11B93 /* golf25.png in Resources */,
 				18B142B72168A45500B11B93 /* planets48.png in Resources */,
@@ -4663,7 +4482,6 @@
 				1814EBDA216016D300842F56 /* car40.gif in Resources */,
 				1894F4842168B16600AE46FF /* trumpet32.png in Resources */,
 				1894F2632168AF8100AE46FF /* money9.png in Resources */,
-				1894F2F22168B0A000AE46FF /* planets27.png in Resources */,
 				1814EBE3216016D300842F56 /* car36.gif in Resources */,
 				1894F09D2168AE2F00AE46FF /* fish47.png in Resources */,
 				1894F0832168AE2F00AE46FF /* fish27.png in Resources */,
@@ -4696,7 +4514,6 @@
 				1894F02F2168A5C400AE46FF /* egg43.png in Resources */,
 				1894F00A2168A5C400AE46FF /* egg6.png in Resources */,
 				1894F21F2168AF5400AE46FF /* milk11.gif in Resources */,
-				1894F2F02168B0A000AE46FF /* planets16.png in Resources */,
 				1894F1AA2168AF1D00AE46FF /* loading19.png in Resources */,
 				1894F4242168B14900AE46FF /* tree29.gif in Resources */,
 				1894F4152168B14900AE46FF /* tree37.gif in Resources */,
@@ -4717,7 +4534,6 @@
 				1894F1C02168AF1D00AE46FF /* loading7.png in Resources */,
 				1894F5482168B1EE00AE46FF /* pizza27.png in Resources */,
 				1894F27D2168AF8100AE46FF /* money25.png in Resources */,
-				1894F2DD2168B0A000AE46FF /* planets48.png in Resources */,
 				1894F41A2168B14900AE46FF /* tree49.gif in Resources */,
 				1894F46B2168B16600AE46FF /* trumpet13.png in Resources */,
 				1894F4BF2168B1CD00AE46FF /* fly8.png in Resources */,
@@ -4743,7 +4559,6 @@
 				1894F22A2168AF5400AE46FF /* milk39.gif in Resources */,
 				1814EC6321674B7100842F56 /* hammer22.png in Resources */,
 				18B142012168A42500B11B93 /* windy28.png in Resources */,
-				1894F2EE2168B0A000AE46FF /* planets38.png in Resources */,
 				1894F3912168B0E600AE46FF /* scale18.png in Resources */,
 				1894F1632168AE8D00AE46FF /* football12.png in Resources */,
 				18B144902168A52400B11B93 /* camera3.png in Resources */,
@@ -4807,6 +4622,7 @@
 				18B143D62168A4CC00B11B93 /* banana26.png in Resources */,
 				18B143EA2168A4CC00B11B93 /* banana31.png in Resources */,
 				1894F3412168B0C600AE46FF /* rubik2.png in Resources */,
+				1894F5582168DAC600AE46FF /* loading46.png in Resources */,
 				1894F0812168AE2F00AE46FF /* fish23.png in Resources */,
 				18B1438B2168A4A300B11B93 /* golf9.png in Resources */,
 				1894F4652168B16600AE46FF /* trumpet9.png in Resources */,
@@ -4815,7 +4631,6 @@
 				1894F0E62168AE6A00AE46FF /* flower33.png in Resources */,
 				1894F1472168AE8D00AE46FF /* football27.png in Resources */,
 				18B143F52168A4CC00B11B93 /* banana47.png in Resources */,
-				1894F2F72168B0A000AE46FF /* planets26.png in Resources */,
 				1894F0F52168AE6B00AE46FF /* flower6.png in Resources */,
 				18B143D22168A4CC00B11B93 /* banana28.png in Resources */,
 				1894F3FD2168B14800AE46FF /* tree36.gif in Resources */,
@@ -4862,7 +4677,6 @@
 				1894F0DA2168AE6A00AE46FF /* flower22.png in Resources */,
 				1894F1562168AE8D00AE46FF /* football49.png in Resources */,
 				1894F3392168B0C600AE46FF /* rubik36.png in Resources */,
-				1894F2D22168B0A000AE46FF /* planets40.png in Resources */,
 				1894F0362168A5C400AE46FF /* egg49.png in Resources */,
 				1894F4C52168B1CD00AE46FF /* fly42.png in Resources */,
 				1894F21B2168AF5400AE46FF /* milk31.gif in Resources */,
@@ -4875,7 +4689,6 @@
 				1894F5492168B1EE00AE46FF /* pizza13.png in Resources */,
 				18B1449A2168A52400B11B93 /* camera20.png in Resources */,
 				1894F0F62168AE6B00AE46FF /* flower28.png in Resources */,
-				1894F2E22168B0A000AE46FF /* planets19.png in Resources */,
 				1894F45E2168B16600AE46FF /* trumpet3.png in Resources */,
 				18B142C72168A45500B11B93 /* planets12.png in Resources */,
 				1894F1022168AE6B00AE46FF /* flower0.png in Resources */,
@@ -4905,13 +4718,11 @@
 				18B143242168A47100B11B93 /* lights40.png in Resources */,
 				18B143942168A4A300B11B93 /* golf7.png in Resources */,
 				1894F54D2168B1EE00AE46FF /* pizza30.png in Resources */,
-				1894F2DF2168B0A000AE46FF /* planets33.png in Resources */,
 				1894F34D2168B0C600AE46FF /* rubik10.png in Resources */,
 				18B143872168A4A300B11B93 /* golf15.png in Resources */,
 				1894F4172168B14900AE46FF /* tree46.gif in Resources */,
 				1894F0FA2168AE6B00AE46FF /* flower1.png in Resources */,
 				1894F1652168AE8D00AE46FF /* football15.png in Resources */,
-				1894F2E32168B0A000AE46FF /* planets41.png in Resources */,
 				1894F3AE2168B0E600AE46FF /* scale21.png in Resources */,
 				18B144992168A52400B11B93 /* camera14.png in Resources */,
 				18B142C02168A45500B11B93 /* planets11.png in Resources */,
@@ -4923,7 +4734,6 @@
 				1894F2762168AF8100AE46FF /* money11.png in Resources */,
 				1894F2812168AF8100AE46FF /* money17.png in Resources */,
 				18B142582168A43E00B11B93 /* rocket0.png in Resources */,
-				1894F2C92168B0A000AE46FF /* planets22.png in Resources */,
 				18B143272168A47100B11B93 /* lights7.png in Resources */,
 				1894F2702168AF8100AE46FF /* money44.png in Resources */,
 				1894F0942168AE2F00AE46FF /* fish39.png in Resources */,
@@ -4935,7 +4745,6 @@
 				1894F52B2168B1EE00AE46FF /* pizza25.png in Resources */,
 				18B142AD2168A45500B11B93 /* planets24.png in Resources */,
 				1814EBEB216016D300842F56 /* car38.gif in Resources */,
-				1894F2F52168B0A000AE46FF /* planets6.png in Resources */,
 				1814EC6221674B7100842F56 /* hammer49.png in Resources */,
 				1814EC5521674B7100842F56 /* hammer48.png in Resources */,
 				18B142B42168A45500B11B93 /* planets49.png in Resources */,
@@ -4994,7 +4803,6 @@
 				18B144372168A4F100B11B93 /* basketball10.png in Resources */,
 				1894F16A2168AE8D00AE46FF /* football46.png in Resources */,
 				18B141E02168A42500B11B93 /* windy16.png in Resources */,
-				1894F2CC2168B0A000AE46FF /* planets37.png in Resources */,
 				1894F3A62168B0E600AE46FF /* scale26.png in Resources */,
 				18B142672168A43E00B11B93 /* rocket30.png in Resources */,
 				1814EC4521674B7100842F56 /* hammer21.png in Resources */,
@@ -5004,7 +4812,6 @@
 				1894F47B2168B16600AE46FF /* trumpet6.png in Resources */,
 				1894F4DB2168B1CD00AE46FF /* fly13.png in Resources */,
 				1894F01B2168A5C400AE46FF /* egg40.png in Resources */,
-				1894F2D02168B0A000AE46FF /* planets46.png in Resources */,
 				18B143DD2168A4CC00B11B93 /* banana4.png in Resources */,
 				1814EC05216016D300842F56 /* car3.gif in Resources */,
 				1894F3FB2168B14800AE46FF /* tree45.gif in Resources */,
@@ -5042,7 +4849,6 @@
 				1894F4EE2168B1CE00AE46FF /* fly49.png in Resources */,
 				1894F4862168B16600AE46FF /* trumpet20.png in Resources */,
 				18B142062168A42500B11B93 /* windy24.png in Resources */,
-				1894F2F62168B0A000AE46FF /* planets45.png in Resources */,
 				1814EBD9216016D300842F56 /* car11.gif in Resources */,
 				1894F0E52168AE6A00AE46FF /* flower32.png in Resources */,
 				18B142AE2168A45500B11B93 /* planets35.png in Resources */,
@@ -5060,8 +4866,6 @@
 				1894F00B2168A5C400AE46FF /* egg38.png in Resources */,
 				1894F19F2168AF1D00AE46FF /* loading5.png in Resources */,
 				1894F3BA2168B0E600AE46FF /* scale22.png in Resources */,
-				1894F2CE2168B0A000AE46FF /* planets14.png in Resources */,
-				1894F2E62168B0A000AE46FF /* planets11.png in Resources */,
 				18B144622168A4F100B11B93 /* basketball4.png in Resources */,
 				18B143192168A47100B11B93 /* lights27.png in Resources */,
 				1814EC4B21674B7100842F56 /* hammer47.png in Resources */,
@@ -5075,8 +4879,6 @@
 				18B142C52168A45500B11B93 /* planets32.png in Resources */,
 				1894F15F2168AE8D00AE46FF /* football30.png in Resources */,
 				1894F2722168AF8100AE46FF /* money45.png in Resources */,
-				1894F2CF2168B0A000AE46FF /* planets28.png in Resources */,
-				1894F2CB2168B0A000AE46FF /* planets17.png in Resources */,
 				18B143082168A47100B11B93 /* lights25.png in Resources */,
 				1894F07A2168AE2F00AE46FF /* fish43.png in Resources */,
 				1894F41F2168B14900AE46FF /* tree30.gif in Resources */,
@@ -5088,7 +4890,6 @@
 				1894F0222168A5C400AE46FF /* egg39.png in Resources */,
 				1894F08D2168AE2F00AE46FF /* fish7.png in Resources */,
 				1894F0182168A5C400AE46FF /* egg11.png in Resources */,
-				1894F2EC2168B0A000AE46FF /* planets1.png in Resources */,
 				1894F2202168AF5400AE46FF /* milk25.gif in Resources */,
 				1894F3452168B0C600AE46FF /* rubik13.png in Resources */,
 				18B143E62168A4CC00B11B93 /* banana21.png in Resources */,
@@ -5096,7 +4897,6 @@
 				1894F3A22168B0E600AE46FF /* scale46.png in Resources */,
 				1894F1522168AE8D00AE46FF /* football19.png in Resources */,
 				1894F0D72168AE6A00AE46FF /* flower20.png in Resources */,
-				1894F2E72168B0A000AE46FF /* planets36.png in Resources */,
 				1894F4782168B16600AE46FF /* trumpet48.png in Resources */,
 				1894F2292168AF5400AE46FF /* milk17.gif in Resources */,
 				1894F3BE2168B0E600AE46FF /* scale15.png in Resources */,
@@ -5136,7 +4936,6 @@
 				1894F28A2168AF8100AE46FF /* money7.png in Resources */,
 				1814EBE1216016D300842F56 /* car6.gif in Resources */,
 				1894F0252168A5C400AE46FF /* egg24.png in Resources */,
-				1894F2C82168B0A000AE46FF /* planets2.png in Resources */,
 				18B1448F2168A52400B11B93 /* camera29.png in Resources */,
 				1894F4212168B14900AE46FF /* tree4.gif in Resources */,
 				18B1430C2168A47100B11B93 /* lights35.png in Resources */,
@@ -5188,7 +4987,6 @@
 				1894F3572168B0C600AE46FF /* rubik0.png in Resources */,
 				18B1437A2168A4A300B11B93 /* golf42.png in Resources */,
 				1894F27F2168AF8100AE46FF /* money23.png in Resources */,
-				1894F2CD2168B0A000AE46FF /* planets10.png in Resources */,
 				1894F0FF2168AE6B00AE46FF /* flower47.png in Resources */,
 				18B141AB2168A40700B11B93 /* apple18.png in Resources */,
 				18B143992168A4A300B11B93 /* golf46.png in Resources */,
@@ -5229,12 +5027,10 @@
 				1894F5522168B1EE00AE46FF /* pizza35.png in Resources */,
 				1894F2842168AF8100AE46FF /* money2.png in Resources */,
 				1894F3BC2168B0E600AE46FF /* scale8.png in Resources */,
-				1894F2E52168B0A000AE46FF /* planets7.png in Resources */,
 				1894F0312168A5C400AE46FF /* egg21.png in Resources */,
 				1894F4092168B14800AE46FF /* tree6.gif in Resources */,
 				1894F41D2168B14900AE46FF /* tree47.gif in Resources */,
 				1894F5502168B1EE00AE46FF /* pizza43.png in Resources */,
-				1894F2D12168B0A000AE46FF /* planets44.png in Resources */,
 				1894F3422168B0C600AE46FF /* rubik23.png in Resources */,
 				18B142422168A43E00B11B93 /* rocket16.png in Resources */,
 				1894F1A82168AF1D00AE46FF /* loading45.png in Resources */,
