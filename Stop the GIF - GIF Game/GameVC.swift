@@ -46,7 +46,12 @@ class GameVC: UIViewController {
         
             if count == 36 || count == 37 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -83,7 +88,13 @@ class GameVC: UIViewController {
             
             if count == 15 || count == 16 {
                 
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
                 UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
+                
                 
                 if tries <= 5 {
                     
@@ -120,7 +131,12 @@ class GameVC: UIViewController {
             
             if count == 45 || count == 46 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -157,7 +173,12 @@ class GameVC: UIViewController {
             
             if count == 43 || count == 44 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -194,7 +215,12 @@ class GameVC: UIViewController {
             
             if count == 23 || count == 24 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -231,7 +257,12 @@ class GameVC: UIViewController {
             
             if count == 48 || count == 49 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -268,7 +299,12 @@ class GameVC: UIViewController {
             
             if count == 24 || count == 25 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -305,7 +341,12 @@ class GameVC: UIViewController {
             
             if count == 24 || count == 25 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -342,7 +383,12 @@ class GameVC: UIViewController {
             
             if count == 48 || count == 49 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -379,7 +425,12 @@ class GameVC: UIViewController {
             
             if count == 29 || count == 30 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -416,7 +467,12 @@ class GameVC: UIViewController {
             
             if count == 36 || count == 37 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -453,7 +509,12 @@ class GameVC: UIViewController {
             
             if count == 23 || count == 24 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -490,7 +551,12 @@ class GameVC: UIViewController {
             
             if count == 48 || count == 49 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -527,7 +593,12 @@ class GameVC: UIViewController {
             
             if count == 35 || count == 36 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -564,7 +635,12 @@ class GameVC: UIViewController {
             
             if count == 29 || count == 30 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -601,7 +677,12 @@ class GameVC: UIViewController {
             
             if count == 40 || count == 41 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -638,7 +719,12 @@ class GameVC: UIViewController {
             
             if count == 19 || count == 20 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -675,7 +761,12 @@ class GameVC: UIViewController {
             
             if count == 39 || count == 40 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -712,7 +803,12 @@ class GameVC: UIViewController {
             
             if count == 14 || count == 15 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -749,7 +845,12 @@ class GameVC: UIViewController {
             
             if count == 0 || count == 1 {
                 
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                    
+                } else {
+                    
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                }
                 
                 if tries <= 5 {
                     
@@ -1111,7 +1212,7 @@ class GameVC: UIViewController {
         
         count += 1
         
-        gifImage.image = UIImage(named: "money\(count).png")
+        gifImage.image = UIImage(named: "banana\(count).png")
         
         if count == 49 {
             
@@ -1137,7 +1238,9 @@ class GameVC: UIViewController {
         
         count += 1
         
-        gifImage.image = UIImage(named: "cups\(count).png")
+        print(count)
+        
+        gifImage.image = UIImage(named: "money\(count).png")
         
         if count == 49 {
             

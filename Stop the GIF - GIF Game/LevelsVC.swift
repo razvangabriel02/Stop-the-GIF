@@ -38,7 +38,11 @@ class LevelsVC: UIViewController {
             
             contentWidth = newX
             
+            let button = UIButton()
+            
             if let tempScore = UserDefaults.standard.object(forKey: "Level \(x)") as? Int{
+                
+                 button.addTarget(self, action: #selector(LevelsVC.segue), for: .touchUpInside)
                 
                 let levelScore = tempScore
                 
@@ -65,21 +69,18 @@ class LevelsVC: UIViewController {
                 image = UIImage(named: "Level Lock \(x).png")!
             }
             
-            let button = UIButton()
             button.setImage(image , for: [])
             
             button.tag = x
             
-            button.frame = CGRect(x: newX - 40 , y: (view.frame.size.height / 2) - 100, width: 100, height: 100)
-            button.addTarget(self, action: #selector(LevelsVC.segue), for: .touchUpInside)
+            button.frame = CGRect(x: newX - 50 , y: (view.frame.size.height / 2) - 100, width: 100, height: 100)
             
             button.imageView?.contentMode = .scaleAspectFill
-            
             
             scrollView.addSubview(button)
         }
         
-        scrollView.contentSize = CGSize(width: contentWidth + 100, height: scrollView.frame.size.height)
+        scrollView.contentSize = CGSize(width: contentWidth + 150, height: scrollView.frame.size.height)
         scrollView.clipsToBounds = false
     }
     

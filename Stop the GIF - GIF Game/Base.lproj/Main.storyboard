@@ -196,7 +196,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tE2-GC-fj4">
-                                <rect key="frame" x="16" y="68" width="343" height="650"/>
+                                <rect key="frame" x="0.0" y="68" width="375" height="650"/>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLM-CP-cSK">
                                 <rect key="frame" x="15" y="717" width="46" height="45"/>
@@ -212,10 +212,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gGD-rP-grL" firstAttribute="trailing" secondItem="tE2-GC-fj4" secondAttribute="trailing" constant="16" id="4d5-3M-rFS"/>
+                            <constraint firstItem="gGD-rP-grL" firstAttribute="trailing" secondItem="tE2-GC-fj4" secondAttribute="trailing" id="4d5-3M-rFS"/>
                             <constraint firstItem="gGD-rP-grL" firstAttribute="bottom" secondItem="tE2-GC-fj4" secondAttribute="bottom" constant="60" id="6OE-sf-c5X"/>
                             <constraint firstItem="rLM-CP-cSK" firstAttribute="leading" secondItem="gGD-rP-grL" secondAttribute="leading" constant="15" id="C6D-6t-R8M"/>
-                            <constraint firstItem="tE2-GC-fj4" firstAttribute="leading" secondItem="gGD-rP-grL" secondAttribute="leading" constant="16" id="ORg-gj-rhu"/>
+                            <constraint firstItem="tE2-GC-fj4" firstAttribute="leading" secondItem="gGD-rP-grL" secondAttribute="leading" id="ORg-gj-rhu"/>
                             <constraint firstItem="tE2-GC-fj4" firstAttribute="top" secondItem="gGD-rP-grL" secondAttribute="top" constant="24" id="pAr-XC-HqA"/>
                             <constraint firstItem="gGD-rP-grL" firstAttribute="bottom" secondItem="rLM-CP-cSK" secondAttribute="bottom" constant="16" id="tqQ-dA-Hyc"/>
                         </constraints>
@@ -228,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bQ0-uD-pLh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-172" y="857"/>
+            <point key="canvasLocation" x="-172" y="856.4039408866995"/>
         </scene>
     </scenes>
     <resources>
@@ -242,7 +242,7 @@
         <image name="starfilled" width="44" height="42"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TLC-hS-ZwY"/>
-        <segue reference="Uys-zg-jSK"/>
+        <segue reference="5pd-JS-Gfn"/>
+        <segue reference="h07-az-dpL"/>
     </inferredMetricsTieBreakers>
 </document>
