@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     let screenSize = UIScreen.main.bounds
     
+    var segueLevel: Int = 1
+    
     @IBOutlet weak var titleText: UIImageView!
     @IBOutlet weak var triangleMatch: UIImageView!
     
@@ -28,10 +30,25 @@ class ViewController: UIViewController {
     
     @IBAction func playButton(_ sender: Any) {
         
-        if xAxis > 167  && xAxis < 235{
+        if xAxis > 167  && xAxis < 235 {
+            
+            for x in 1...30{
+                
+                if let noScoreLevel = UserDefaults.standard.object(forKey: "Level \(x)") as? Int {
+                    
+                    if noScoreLevel == 0 {
+                        
+                        segueLevel = x
+                        
+                        UserDefaults.standard.set(segueLevel, forKey: "currentLevel")
+                        
+                    }
+                }
+                
+            }
             
             performSegue(withIdentifier: "game", sender: UIButton())
-         }
+        }
     }
     
     
@@ -77,7 +94,7 @@ class ViewController: UIViewController {
         
     }
 
-    
+
     
 }
 
