@@ -19,6 +19,7 @@ class LevelsVC: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         
+        
         if let tempLevelOne = UserDefaults.standard.object(forKey: "Level 1") as? Int {
             
             print(tempLevelOne)

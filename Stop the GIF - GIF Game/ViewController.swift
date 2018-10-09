@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         if xAxis > 167  && xAxis < 235{
             
             performSegue(withIdentifier: "game", sender: UIButton())
-    }
+         }
     }
     
     
@@ -76,6 +76,7 @@ class ViewController: UIViewController {
         view.addSubview(background)
         
     }
+
     
     
 }

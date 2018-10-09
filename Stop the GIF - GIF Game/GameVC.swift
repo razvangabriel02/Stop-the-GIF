@@ -29,6 +29,7 @@ class GameVC: UIViewController {
     var level = Int()
     var score = 0
     var currentLevel: Int = 1
+   
     
     @IBAction func play(_ sender: Any) {
         UserDefaults.standard.set((currentLevel + 1), forKey: "currentLevel")
@@ -41,14 +42,13 @@ class GameVC: UIViewController {
             print(" Tries = \(tries) ")
             print(" Count = \(count) ")
             tries += 1
+            let higherScore = UserDefaults.standard.object(forKey: "Level \(currentLevel)") as? Int
         
         if currentLevel == 1 {
         
             if count == 36 || count == 37 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -63,14 +63,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                   
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -82,19 +94,16 @@ class GameVC: UIViewController {
                 winLabel.alpha = 1
                 
                 timer.invalidate()
-                 }
+            }
             
         } else if currentLevel == 2 {
             
             if count == 15 || count == 16 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
-                } else {
-                    
-                UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
+                    UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
-                
                 
                 if tries <= 5 {
                     
@@ -106,14 +115,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -131,9 +152,7 @@ class GameVC: UIViewController {
             
             if count == 45 || count == 46 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -147,15 +166,27 @@ class GameVC: UIViewController {
                     UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
                     
                 } else if tries > 5 && tries <= 10 {
+                 
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -173,9 +204,7 @@ class GameVC: UIViewController {
             
             if count == 43 || count == 44 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -190,14 +219,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -215,9 +256,7 @@ class GameVC: UIViewController {
             
             if count == 23 || count == 24 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -232,14 +271,27 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                   
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                        
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -257,9 +309,7 @@ class GameVC: UIViewController {
             
             if count == 48 || count == 49 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -274,14 +324,28 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                        
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                        
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -299,9 +363,7 @@ class GameVC: UIViewController {
             
             if count == 24 || count == 25 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -316,14 +378,27 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -341,9 +416,7 @@ class GameVC: UIViewController {
             
             if count == 24 || count == 25 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -358,14 +431,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
+    
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -383,9 +468,7 @@ class GameVC: UIViewController {
             
             if count == 48 || count == 49 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -400,14 +483,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
+                
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -425,9 +520,7 @@ class GameVC: UIViewController {
             
             if count == 29 || count == 30 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -442,14 +535,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -467,9 +572,7 @@ class GameVC: UIViewController {
             
             if count == 36 || count == 37 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -484,14 +587,27 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                        
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
+                
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                        
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -509,9 +625,7 @@ class GameVC: UIViewController {
             
             if count == 23 || count == 24 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -525,15 +639,27 @@ class GameVC: UIViewController {
                     UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
                     
                 } else if tries > 5 && tries <= 10 {
+                
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
+                
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -551,9 +677,7 @@ class GameVC: UIViewController {
             
             if count == 48 || count == 49 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -568,14 +692,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -593,9 +729,7 @@ class GameVC: UIViewController {
             
             if count == 35 || count == 36 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -609,15 +743,27 @@ class GameVC: UIViewController {
                     UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
                     
                 } else if tries > 5 && tries <= 10 {
+             
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -635,9 +781,7 @@ class GameVC: UIViewController {
             
             if count == 29 || count == 30 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -651,15 +795,31 @@ class GameVC: UIViewController {
                     UIView.animate(withDuration: 2.5) { self.starThree.alpha = 1 }
                     
                 } else if tries > 5 && tries <= 10 {
+                  
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                        
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                    if let higherScore = UserDefaults.standard.object(forKey: "Level \(currentLevel)") as? Int {
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                        
+                    }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -677,9 +837,7 @@ class GameVC: UIViewController {
             
             if count == 40 || count == 41 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -694,14 +852,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -719,9 +889,7 @@ class GameVC: UIViewController {
             
             if count == 19 || count == 20 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -736,14 +904,26 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -761,9 +941,7 @@ class GameVC: UIViewController {
             
             if count == 39 || count == 40 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -778,14 +956,27 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                    
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                        
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -803,9 +994,7 @@ class GameVC: UIViewController {
             
             if count == 14 || count == 15 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -820,14 +1009,28 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                        
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
+                        
+                    
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
@@ -845,9 +1048,7 @@ class GameVC: UIViewController {
             
             if count == 0 || count == 1 {
                 
-                if let hasScore = UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)"){
-                    
-                } else {
+                if UserDefaults.standard.object(forKey: "Level \(currentLevel + 1)") == nil{
                     
                     UserDefaults.standard.set(0, forKey: "Level \(currentLevel + 1)")
                 }
@@ -862,14 +1063,25 @@ class GameVC: UIViewController {
                     
                 } else if tries > 5 && tries <= 10 {
                     
-                    UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        
+                        if higherScore == 3{
+                            
+                        } else {
+                            UserDefaults.standard.set(2, forKey: "Level \(currentLevel)")
+                        }
+                    
                     winLabel.text = "Excellent !"
                     UIView.animate(withDuration: 1.2) { self.starOne.alpha = 1 }
                     UIView.animate(withDuration: 2) { self.starTwo.alpha = 1 }
                     
                 } else if tries > 10 {
+                        
+                        if higherScore == 3 || higherScore == 2 {
+                            
+                        } else {
+                            UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
+                        }
                     
-                    UserDefaults.standard.set(1, forKey: "Level \(currentLevel)")
                     winLabel.text = "Good Job !"
                     UIView.animate(withDuration: 1.4) { self.starOne.alpha = 1 }
                     
